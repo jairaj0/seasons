@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+scroll-behavior: smooth;
+}
+
+body{
+    background: #2C2543;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.myVideo{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.flex-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-around{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.section_title{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 5px #fff;
+}
+.section_dis{
+    color: #cccccc;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.walletconnect-modal__mobile__toggle a{
+        color: #161616 !important;
+    }
+.web3modal-modal-lightbox{
+    z-index: 99 !important;
+}
+
+
+    @media screen and (max-width: 600px) {
+        .container{
+            padding: 0 1rem;
+        }
+    }

@@ -1,0 +1,84 @@
+.roadmap {
+  background-image: url("../../Assets/roadmap.png");
+  background-color: #221C33;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 8rem 0;
+}
+
+.map .b_cir {
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.map .b_cir .cir {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.map .line_d {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.map .line_d .d_line {
+  width: 40px;
+  height: 80px;
+}
+
+.map .line_d .d_line line {
+  margin: 0 auto;
+  stroke: #fff;
+  stroke-dasharray: 20px;
+  stroke-width: 2px;
+}
+
+.map .line_d .d_line2 {
+  height: 80px;
+}
+
+.map .road_info {
+  max-width: 700px;
+  padding: 1rem 3rem;
+  border-radius: 4rem 4rem 0 0;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  background: rgba(0, 0, 0, 0.384);
+  color: #fff;
+}
+
+.map .road_info .mapTitle {
+  font-size: 25px;
+  text-align: center;
+  color: #A334D4;
+  text-shadow: 0 0 5px #A334D4;
+}
+
+.map .road_info .mapContent ul {
+  list-style-type: none;
+}
+
+.map .road_info .mapContent li {
+  margin: 1rem 0;
+}
+
+.map .road_info .mapContent li::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #A334D4;
+  -webkit-box-shadow: 0 0 5px #A334D4;
+          box-shadow: 0 0 5px #A334D4;
+  -webkit-transform: translateX(-20px) translateY(5px);
+          transform: translateX(-20px) translateY(5px);
+  border-radius: 50%;
+}
+/*# sourceMappingURL=Roadmap.css.map */

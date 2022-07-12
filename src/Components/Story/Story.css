@@ -1,0 +1,58 @@
+.story {
+  padding: 10rem 0;
+  min-height: 800px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(255, 255, 255, 0.7)));
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.7));
+}
+
+.story .title, .story .dis {
+  text-align: center;
+  color: #454545;
+}
+
+.story .title {
+  color: #221C33;
+  margin-bottom: .5rem;
+}
+
+.story .story_data {
+  margin-top: 3rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 5rem;
+}
+
+.story .story_data .gif {
+  width: 300px;
+  height: 320px;
+}
+
+.story .story_data .story_txts h1 {
+  font-size: 20px;
+  color: #221C33;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.story .story_data .story_txts h1 span {
+  font-weight: 600;
+  color: #F86534;
+}
+
+.story .story_data .story_txts h1:nth-child(2) {
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 950px) {
+  .story_data {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+  .gif {
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+}
+/*# sourceMappingURL=Story.css.map */

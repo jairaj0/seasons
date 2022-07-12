@@ -1,0 +1,78 @@
+.roadmap {
+    background-image: url("../../Assets/roadmap.png");
+    background-color: #221C33;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 8rem 0;
+}
+
+.map {
+    .b_cir {
+        margin: 0 auto;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+
+        .cir {
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+            border-radius: 50%;
+        }
+    }
+
+    .line_d {
+        width: fit-content;
+        margin: 0 auto;
+    .d_line{
+        width: 40px;
+        height: 80px;
+        line{
+            margin: 0 auto;
+            stroke: #fff; 
+            stroke-dasharray: 20px;
+            stroke-width: 2px;
+        }
+    }
+    .d_line2{
+        height: 80px;
+    }
+    }
+
+    .road_info{
+        max-width: 700px;
+        padding: 1rem 3rem;
+        border-radius: 4rem 4rem 0 0;
+        margin: 0 auto;
+        border: 2px solid #fff;
+        background: rgba(0, 0, 0, 0.384);
+        color: #fff;
+
+        .mapTitle{
+            font-size: 25px;
+            text-align: center;
+            color: #A334D4;
+            text-shadow: 0 0 5px #A334D4;
+        }
+
+        .mapContent{
+            ul{
+                list-style-type: none;
+            }
+            li{
+                margin: 1rem 0;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    width: 10px;
+                    height: 10px;
+                    background: #A334D4;
+                    box-shadow: 0 0 5px #A334D4;
+                    transform: translateX(-20px) translateY(5px);
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

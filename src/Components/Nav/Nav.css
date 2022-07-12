@@ -1,0 +1,126 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: #221C33;
+  z-index: 10;
+}
+
+nav .nav {
+  height: inherit;
+}
+
+nav .nav .logo img {
+  width: 150px;
+  background: #fff;
+}
+
+nav .nav .menu {
+  display: none;
+  cursor: pointer;
+  background: none;
+  color: #fff;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  position: relative;
+  z-index: 9;
+}
+
+nav .nav .nav_links .link {
+  margin-right: 1rem;
+  font-size: 16px;
+  font-weight: 500;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  padding: .5rem 0;
+  border-bottom: 3px solid transparent;
+}
+
+nav .nav .nav_links .link:hover {
+  border-bottom-color: #A334D4;
+}
+
+nav .nav .social_links {
+  margin-left: 1rem;
+}
+
+nav .nav .social_links .s_link {
+  font-size: 22px;
+  margin-left: 1rem;
+  border: 1px solid transparent;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+nav .nav .social_links .s_link:hover {
+  border-bottom-color: #A334D4;
+  border-bottom-width: 4px;
+}
+
+nav .connect {
+  color: #fff;
+  background: #221C33;
+  -webkit-box-shadow: 0 0 5px #A334D4;
+          box-shadow: 0 0 5px #A334D4;
+  border: none;
+  outline: none;
+  margin-left: 2rem;
+  font-size: 16px;
+  font-weight: 500;
+  padding: .5rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+nav .connect:hover {
+  background: #A334D4;
+  color: #fff;
+  -webkit-box-shadow: 0 0 10px #221C33;
+          box-shadow: 0 0 10px #221C33;
+}
+
+@media screen and (max-width: 950px) {
+  .menu {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .menus {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: -350px;
+    left: 0;
+    background-color: #221C33;
+    width: 100%;
+    height: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+  .menus a:nth-child(4) {
+    margin-right: 0 !important;
+  }
+  .menus .social_links {
+    margin: 2rem 0;
+  }
+}
+/*# sourceMappingURL=Nav.css.map */
